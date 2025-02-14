@@ -44,7 +44,6 @@ The project is organized as follows:
 │   └── UserRegisteredEventHandler.cs
 │
 ├── Program.cs
-└── appsettings.json (optional for configuration)
 ```
 
 - **Commands**: Contains all the command classes (requests that modify state) and their respective handlers.
@@ -130,14 +129,14 @@ Here's a breakdown of the folder structure:
 **Clone the repository (if applicable):**
 
 ```bash
-git clone https://github.com/yourusername/MediatRConsoleApp.git
-cd MediatRConsoleApp
+git clone https://github.com/ikaddabet/Example-MediatR.git
+cd Example-MediatR
 ```
 
-**Install dependencies:** Install the MediatR NuGet package:
+**restore dependencies:**
 
 ```bash
-dotnet add package MediatR
+dotnet restore
 ```
 
 **Build the project:**
@@ -149,6 +148,7 @@ dotnet build
 **Run the application:**
 
 ```bash
+cd  src\Ex.MediatR
 dotnet run
 ```
 
