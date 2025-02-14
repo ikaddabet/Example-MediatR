@@ -1,9 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.MediatR", "Ex.MediatR.csproj", "{EDEF08BD-EB8D-471F-91C7-C17600AD9F69}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{85B59864-EE2E-4E6D-AFD4-03C32AC27117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.MediatR", "src\Ex.MediatR\Ex.MediatR.csproj", "{4E329E6A-F9F8-4E9E-90DC-716E1BDF81FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F440F1B-65BA-4C16-8FB8-450EC3EA5A01}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +20,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EDEF08BD-EB8D-471F-91C7-C17600AD9F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDEF08BD-EB8D-471F-91C7-C17600AD9F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDEF08BD-EB8D-471F-91C7-C17600AD9F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDEF08BD-EB8D-471F-91C7-C17600AD9F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E329E6A-F9F8-4E9E-90DC-716E1BDF81FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E329E6A-F9F8-4E9E-90DC-716E1BDF81FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E329E6A-F9F8-4E9E-90DC-716E1BDF81FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E329E6A-F9F8-4E9E-90DC-716E1BDF81FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E329E6A-F9F8-4E9E-90DC-716E1BDF81FE} = {85B59864-EE2E-4E6D-AFD4-03C32AC27117}
 	EndGlobalSection
 EndGlobal
